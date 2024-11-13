@@ -14,6 +14,7 @@ public class SortedTree {
     }
 }
 
+
 /*Explanation
 A TreeSet is created from the list, which removes duplicates and sorts the elements in ascending order.
 */
