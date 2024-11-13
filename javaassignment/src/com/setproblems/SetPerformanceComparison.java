@@ -1,4 +1,4 @@
-package com.javaassignment;
+package com.setproblems;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
