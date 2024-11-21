@@ -1,21 +1,21 @@
-package ctp;
+package compiletimepolymorphism;
 
-public class Amazon {
+public class Flipkart {
 
 	void buy(String product) {
-		System.out.println("Product:"+product);
+		System.out.println("Product Name:"+product);
 	}
 
 	void buy(int cost) {
-		System.out.println("Cost:"+cost);
+		System.out.println("Cost of Product:"+cost);
 	}
 
 	void buy(String product,int cost) {
-		System.out.println("Product:"+product+" Cost:"+cost);
+		System.out.println("Product Name:"+product+" Product Cost:"+cost);
 	}
 	
 	void buy(int cost,String product) {
-		System.out.println("Cost:"+cost+" Product:"+product);
+		System.out.println("Product Cost:"+cost+" Product Name:"+product);
 	}
 
 }
