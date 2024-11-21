@@ -1,15 +1,15 @@
-package ctp;
+package compiletimepolymorphism;
 
-public class AmazonMainClass {
+public class Main {
 
 	public static void main(String[] args) {
 
-		Amazon a = new Amazon();
+		Flipkart f = new Flipkart();
 
-		a.buy("Mobile",40000);
-		a.buy("Laptop");
-		a.buy(60000);
-		a.buy(20000,"Watch");
+		f.buy("Mobile",40000);
+		f.buy("Laptop");
+		f.buy(60000);
+		f.buy(2000,"Watch");
 	}
 
 }
